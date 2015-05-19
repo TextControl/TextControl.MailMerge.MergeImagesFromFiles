@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<report>
+  <customer>
+    <company>Microsoft Corporation</company>
+    <company_logo>microsoft_logo.png</company_logo>
+  </customer>
+  <customer>
+    <company>Text Control, LLC</company>
+    <company_logo>textcontrol_logo.png</company_logo>
+  </customer>
+</report>
