@@ -1,4 +1,6 @@
-﻿namespace tx_merge_images
+﻿using System;
+
+namespace tx_merge_images
 {
     partial class Form1
     {
@@ -57,7 +59,7 @@
             // mailMerge1
             // 
             this.mailMerge1.ReportDataSourceConfig = "";
-            this.mailMerge1.SearchPath = "C:\\Users\\bjoer_000\\Desktop";
+            this.mailMerge1.SearchPath = Environment.CurrentDirectory;
             this.mailMerge1.TemplateFile = "template.docx";
             this.mailMerge1.TextComponent = this.textControl1;
             // 
